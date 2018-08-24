@@ -1,6 +1,7 @@
 %{
   "agala": {:hex, :agala, "3.0.0", "00eba9262858c65b835cc9eebdf488137c70d9a26d1473349663b1a8a930d218", [:mix], [], "hexpm"},
   "agala_telegram": {:hex, :agala_telegram, "3.0.0", "43195cd75f6f350ebdb60a16542080dd531827f6f4b3d3f3deb18f4114c6486e", [:mix], [{:agala, "~> 3.0", [hex: :agala, repo: "hexpm", optional: false]}, {:construct, "~> 1.0", [hex: :construct, repo: "hexpm", optional: false]}, {:hackney, "~> 1.13", [hex: :hackney, repo: "hexpm", optional: false]}, {:httpoison, "~> 1.2", [hex: :httpoison, repo: "hexpm", optional: false]}, {:jason, "~> 1.1", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm"},
+  "agala_vk": {:hex, :agala_vk, "3.0.0", "24f0859e5102e27a930fedda3c64be00ba6b60c5f639678f1e1a708e773e734a", [:mix], [{:agala, "~> 3.0", [hex: :agala, repo: "hexpm", optional: false]}, {:httpoison, "~> 1.2", [hex: :httpoison, repo: "hexpm", optional: false]}, {:jason, "~> 1.1", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm"},
   "certifi": {:hex, :certifi, "2.3.1", "d0f424232390bf47d82da8478022301c561cf6445b5b5fb6a84d49a9e76d2639", [:rebar3], [{:parse_trans, "3.2.0", [hex: :parse_trans, repo: "hexpm", optional: false]}], "hexpm"},
   "construct": {:hex, :construct, "1.1.0", "095273c4f383590efa653bbe3d44766e68d35a0617602c58e62ab537df283fff", [:mix], [], "hexpm"},
   "fastglobal": {:hex, :fastglobal, "1.0.0", "f3133a0cda8e9408aac7281ec579c4b4a8386ce0e99ca55f746b9f58192f455b", [:mix], [], "hexpm"},
