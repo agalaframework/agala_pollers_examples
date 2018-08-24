@@ -23,7 +23,7 @@ defmodule Ape.MixProject do
   defp deps do
     [
       {:agala_telegram, "~> 3.0"},
-      {:agala_vk, path: "~> 3.0"}
+      {:agala_vk, "~> 3.0"}
     ]
   end
 end
