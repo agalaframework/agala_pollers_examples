@@ -22,8 +22,8 @@ defmodule Ape.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:agala_telegram, path: "../agala_telegram"},
-      {:agala_vk, path: "../agala_vk"}
+      {:agala_telegram, "~> 3.0"},
+      {:agala_vk, path: "~> 3.0"}
     ]
   end
 end
